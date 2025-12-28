@@ -168,3 +168,15 @@ Leet Code : [link](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/cor
 Scenario based : [link](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/core-java-practice/scenario-based)
 
 ---
+### 🗓 Day 4 – Scenario Based problems  
+*(Date: 26-Dec-2025)*
+
+- Solved Scenario based prblems.
+- Organized programs into proper folders.
+- Committed and pushed all changes successfully.
+
+🔗 **Code Link:**
+
+👉 [Day 4 – Scenario based](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/core-java-practice/scenario-based/Day-2)
+
+---
