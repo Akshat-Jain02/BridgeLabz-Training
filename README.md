@@ -109,7 +109,7 @@ BridgeLabz-Training/
 👉 [Day 6 – Methods](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods)
 
 ---
-## 📅 Week 2: Extra programming Fundamentals & practice
+## 📅 Week 2: Strings programming Fundamentals & practice
 
 ### 🗓 Day 1 – Java Strings
 **(Date: 22-Dec-2025)**
