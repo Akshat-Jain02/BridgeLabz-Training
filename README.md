@@ -193,7 +193,9 @@ Scenario based : [link](https://github.com/Akshat-Jain02/BridgeLabz-Training/tre
 👉 [Day 5 – Strings](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/strings)
 
 ---
-### 🗓 Day 6 – Scenario-Based problems
+## 📅 Week 3: Practicle Application and Problem
+
+### 🗓 Day 1 – Scenario-Based problems
 **(Date: 29-Dec-2025)**
 
 - Solved **5 scenario-based problems** using Java.
