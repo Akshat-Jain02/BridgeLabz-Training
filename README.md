@@ -36,16 +36,18 @@ BridgeLabz-Training/
 │   └── 📁 scenario-based/             # Real-world problems
 │
 └── 📁 java-oops-practice/
-    └── 📁 gcr-codebase/
-        └── 📁 JavaOopsConcepts/
-            └── 📁 src/
-                └── 📁 com/
-                    ├── 📁 classandobject/    # Procedural vs OOP, fundamentals
-                    └── 📁 constructors/      # Constructor, access modifiers
-                    └── 📁 encapsulation/     # Abstrcat class, Interface, & Polymorphism
-                    └── 📁 inbuiltfunction/   # Keywords, instance vs class members
-                    └── 📁 inheritance/       # Types, method overriding, & access modifiers
-                    └── 📁 objectmodeling/    # Diagrams, relationships, communication
+|   └── 📁 gcr-codebase/
+|    |   └── 📁 JavaOopsConcepts/
+|    |      └── 📁 src/
+|    |            └── 📁 com/
+|    |                ├── 📁 classandobject/    # Procedural vs OOP, fundamentals
+|    |                └── 📁 constructors/      # Constructor, access modifiers
+|    |                └── 📁 encapsulation/     # Abstrcat class, Interface, & Polymorphism
+|    |                └── 📁 inbuiltfunction/   # Keywords, instance vs class members
+|    |                └── 📁 inheritance/       # Types, method overriding, & access modifiers
+|    |                └── 📁 objectmodeling/    # Diagrams, relationships, communication
+│    ├── 📁 leet-code-codebase/                 # LeetCode solutions
+│    └── 📁 scenario-based/                     # Real-world problems
 ```
 
 ---
@@ -117,6 +119,7 @@ BridgeLabz-Training/
 - 📌 [Object Modeling & Relations](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodeling)
 - 📌 [Inheritance & Types](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
 -  📌 [Encapsulation & Polymorphism](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulation)
+- 📌 [Scenario-Based Solutions](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-oops-practice/scenario-based/ScenarioPractice/src/com)
 ---
 
 ## 🎓 Learnings & Best Practices
