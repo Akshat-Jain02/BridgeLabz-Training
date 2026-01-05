@@ -16,6 +16,8 @@ This repository documents my learning journey at BridgeLabz, spanning from **Dec
 ### 🔹 [java-oops-practice](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-oops-practice)
 **Week 2** : Object-Oriented Programming
 
+### 🔹 [dsa-practice](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/dsa-practice)
+**Week 3** : Data Structures & Algorithms
 ---
 
 ## 📂 Project Structure
@@ -48,6 +50,20 @@ BridgeLabz-Training/
 |    |                └── 📁 objectmodeling/    # Diagrams, relationships, communication
 │    ├── 📁 leet-code-codebase/                 # LeetCode solutions
 │    └── 📁 scenario-based/                     # Real-world problems
+|
+└── 📁 dsa-practice/
+│   └── 📁 gcr-codebase/
+│   │  └── 📁 DSAConcepts/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 linkedlists/       # singly, doubly & circular
+│   │               └── 📁 stacks/            # Last-In-First-Out (LIFO)
+│   │               └── 📁 queues/            # First-In-First-Out (FIFO)
+│   │               └── 📁 hashmaps/          # Key-Value pairs
+│   ├── 📁 leet-code-codebase/                # LeetCode solutions
+│   └── 📁 scenario-based/                    # Real-world problems
+|
+└── README.md
 ```
 
 ---
@@ -77,6 +93,13 @@ BridgeLabz-Training/
 |  12 | 30-Dec      | Object Modeling                | Diagrams, relationships, communication |
 |  13 | 31-Dec      | Inheritance & Types            | Types, method overriding, & modifiers  |
 |  14 | 01-Jan      | Encapsulation & Polymorphism   | Data hiding, polymorphism, interfaces  |
+
+### **Week 3 : Data Structures & Algorithms**
+
+| Day |     Date    | Topic                          | Coverage                               |
+|-----|-------------|--------------------------------|----------------------------------------|
+|  15 | 02-Jan      | DSA Basics & LinkedList        | DSA concepts, LinkedList and its types |
+|  16 | 03-Jan      | Stack, Queue & HashMap         | Core operations and basic use cases    |
 
 ---
 
@@ -120,6 +143,12 @@ BridgeLabz-Training/
 - 📌 [Inheritance & Types](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
 -  📌 [Encapsulation & Polymorphism](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulation)
 - 📌 [Scenario-Based Solutions](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-oops-practice/scenario-based/ScenarioPractice/src/com)
+
+### `dsa-practice` :
+- 📌 [Linked Lists](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/linkedlists)
+- 📌 [Stacks](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/stacks)
+- 📌 [Queues](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/queues)
+- 📌 [HashMaps](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/hashmaps)
 ---
 
 ## 🎓 Learnings & Best Practices
