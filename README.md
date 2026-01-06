@@ -60,6 +60,7 @@ BridgeLabz-Training/
 │   │               └── 📁 stacks/            # Last-In-First-Out (LIFO)
 │   │               └── 📁 queues/            # First-In-First-Out (FIFO)
 │   │               └── 📁 hashmaps/          # Key-Value pairs
+|   |               └── 📁 sorting/           # Sorting algorithms
 │   ├── 📁 leet-code-codebase/                # LeetCode solutions
 │   └── 📁 scenario-based/                    # Real-world problems
 |
@@ -100,7 +101,7 @@ BridgeLabz-Training/
 |-----|-------------|--------------------------------|----------------------------------------|
 |  15 | 02-Jan      | DSA Basics & LinkedList        | DSA concepts, LinkedList and its types |
 |  16 | 03-Jan      | Stack, Queue & HashMap         | Core operations and basic use cases    |
-
+|  17 | 05-Jan      | Sorting Algorithms             | Sorting algorithms & comparison logic  |
 ---
 
 ##  Key Concepts Covered
@@ -120,6 +121,14 @@ BridgeLabz-Training/
 -  **Abstraction**: Interface-based design patterns
 -  **Inheritance**: Parent and Chlid relations
 -  **Polymorphism**: Method overloading and method overriding
+-  
+-  ### Data Structures & Algorithms (dsa-practice)
+- **DSA Fundamentals**: Time & space complexity, basic problem analysis
+- **Linked Lists**: Singly, doubly, and circular linked lists
+- **Stacks**: LIFO principle, push/pop operations, stack applications
+- **Queues**: FIFO principle, enqueue/dequeue operations, queue variants
+- **HashMaps**: Key-value storage, hashing concept, basic operations
+- **Sorting**: Basic sorting algorithms and comparison-based sorting concepts
 ---
 
 ## 🔗 Quick Links
@@ -149,6 +158,7 @@ BridgeLabz-Training/
 - 📌 [Stacks](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/stacks)
 - 📌 [Queues](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/queues)
 - 📌 [HashMaps](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/hashmaps)
+- 📌 [Sorting Algorithms](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/sorting)
 ---
 
 ## 🎓 Learnings & Best Practices
