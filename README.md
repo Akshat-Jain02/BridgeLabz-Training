@@ -20,6 +20,7 @@ BridgeLabz-Training/
 |   |               |── hashmaps/
 |   |               |── sorting/
 |   |               |── searching/
+|   |               |── analysis/
 |   |
 │ 	│── leet-code-codebase/
 │ 	│── scenario-based/
