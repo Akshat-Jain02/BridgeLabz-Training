@@ -1,0 +1,5 @@
+In Java file handling means working with
+files like creating them reading data 
+writing data or deleting them
+It helps a program save and use information 
+permanently on the computer
