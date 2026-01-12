@@ -169,9 +169,9 @@ BridgeLabz-Training/
 - 📌 [Queues](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/queues)
 - 📌 [HashMaps](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/hashmaps)
 - 📌 [Sorting Algorithms](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/sorting)
-- - 📌 [Searching Algorithms, String & I/O utilities](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/searching)
+- 📌 [Searching Algorithms, String & I/O utilities](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/searching)
 - 📌 [Time & Space Complexity Analysis](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/analysis)
-
+- 📌 [Scenario-Based Solutions](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/dsa-practice/scenario-based/ScenarioPracticeDSA/src/com)
 ---
 
 ## 🎓 Learnings & Best Practices
