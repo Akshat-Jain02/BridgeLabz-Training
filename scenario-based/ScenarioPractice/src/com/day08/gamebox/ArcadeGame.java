@@ -1,0 +1,11 @@
+package com.day08.gamebox;
+
+class ArcadeGame extends Game {
+    ArcadeGame(String title, double price, double rating) {
+        super(title, "Arcade", price, rating);
+    }
+
+    public void playDemo() {
+        System.out.println("Fast-paced arcade demo");
+    }
+}
