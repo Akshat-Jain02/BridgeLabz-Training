@@ -18,6 +18,9 @@ This repository documents my learning journey at BridgeLabz, spanning from **Dec
 
 ### 🔹 [dsa-practice](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/dsa-practice)
 **Week 3** : Data Structures & Algorithms
+
+### 🔹 [java-collections-practice](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-collections-practice)
+**Week 4** : Collections Framework in Java
 ---
 
 ## 📂 Project Structure
@@ -65,8 +68,19 @@ BridgeLabz-Training/
 │   │               └── 📁 analysis/          # Runtime Analysis & Big-O Notation
 │   ├── 📁 leet-code-codebase/                # LeetCode solutions
 │   └── 📁 scenario-based/                    # Real-world problems
+|   |
+└── 📁 java-collections-practice/
+│   ├── 📁 gcr-codebase/
+│   │  └── 📁 CollectionsConcepts/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               └── 📁 generics/          # 
+|   |
+│   ├── 📁 leet-code-codebase/
+│   └── 📁 scenario-based-codebase/
 |
 └── README.md
+
 ```
 
 ---
@@ -106,6 +120,13 @@ BridgeLabz-Training/
 |  17 | 05-Jan      | Sorting Algorithms             | Sorting algorithms & comparison logic  |
 |  18 | 06-Jan      | Searching & I/O utilities      | Linear & Binary Search and FileReader  |
 |  19 | 07-Jan      | Runtime Analysis & Big-O       | Time & space complexity analysis       |
+|  20 | 13-Jan      | Trees & Binary Search Trees    | Basics, types and CRUD operations      |
+|  21 | 15-Jan      | Graphs (DFS & BFS)             | Basics and traversal algorithms        |
+
+### **Week 4 : Collections Framework in Java**
+| Day |     Date    | Topic                          | Coverage                                                            |
+|-----|-------------|--------------------------------|---------------------------------------------------------------------|
+| 22  | 16-Jan      | Java Generics                  | Generic classes, methods, type parameters, bounded types, wildcards |
 
 ---
 
@@ -172,6 +193,10 @@ BridgeLabz-Training/
 - 📌 [Searching Algorithms, String & I/O utilities](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/searching)
 - 📌 [Time & Space Complexity Analysis](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/DSAConcepts/src/com/analysis)
 - 📌 [Scenario-Based Solutions](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/dsa-practice/scenario-based/ScenarioPracticeDSA/src/com)
+
+### `java-collections-practice` :
+- 📌 [Generics](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/generics)
+
 ---
 
 ## 🎓 Learnings & Best Practices
