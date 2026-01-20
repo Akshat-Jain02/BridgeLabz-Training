@@ -127,6 +127,7 @@ BridgeLabz-Training/
 | Day |     Date    | Topic                          | Coverage                                                            |
 |-----|-------------|--------------------------------|---------------------------------------------------------------------|
 | 22  | 16-Jan      | Java Generics                  | Generic classes, methods, type parameters, bounded types, wildcards |
+| 23  | 17-Jan      | Collections Framework          | Collection hierarchy, List, Set, Queue, Map, implementations        |
 
 ---
 
@@ -196,7 +197,7 @@ BridgeLabz-Training/
 
 ### `java-collections-practice` :
 - 📌 [Generics](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/generics)
-
+- 📌 [Collections](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/collections)
 ---
 
 ## 🎓 Learnings & Best Practices
