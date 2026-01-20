@@ -35,31 +35,41 @@ public class AddressBook {
 
     // Delete contact by name
     public void deleteContact(String fullName) {
-        contacts.removeIf(c ->
+        contacts.removeIf(c -> 
                 c.getFullName().equalsIgnoreCase(fullName));
         System.out.println("Contact deleted if existed.");
     }
 
     // Search by city
     public void searchByCity(String city) {
-        contacts.stream()
-                .filter(c -> c.getAddress() != null &&
-                             c.getAddress().getCity().equalsIgnoreCase(city))
-                .forEach(System.out::println);
+        for (Contact c : contacts) {
+            if (c.getAddress() != null && 
+                c.getAddress().getCity().equalsIgnoreCase(city)) {
+                System.out.println(c);
+            }
+        }
     }
 
     // Search by state
     public void searchByState(String state) {
-        contacts.stream()
-                .filter(c -> c.getAddress() != null &&
-                             c.getAddress().getState().equalsIgnoreCase(state))
-                .forEach(System.out::println);
+        for (Contact c : contacts) {
+            if (c.getAddress() != null && 
+                c.getAddress().getState().equalsIgnoreCase(state)) {
+                System.out.println(c);
+            }
+        }
     }
 
     // Display all sorted contacts
     public void displayAllContacts() {
-        contacts.stream()
-                .sorted(Comparator.comparing(Contact::getFullName))
-                .forEach(System.out::println);
+        // Create a copy so we don't modify original list
+        List<Contact> sortedList = new ArrayList<>(contacts);
+        
+        // Sort using Collections.sort (since we removed stream)
+        java.util.Collections.sort(sortedList, Comparator.comparing(Contact::getFullName));
+        
+        for (Contact c : sortedList) {
+            System.out.println(c);
+        }
     }
 }
