@@ -84,3 +84,19 @@ BridgeLabz-Training/
 - 🔗 **Code Link:**  
 👉 [Java I/O Streams](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/streams)
 
+### 🗓 Day 25 – Exception Handling
+**(Date: 20-Jan-2026)**
+- Studied Java exception handling and exception hierarchy.
+- Differentiated between checked and unchecked exceptions.
+- Implemented `try`, `catch`, `finally`, and multiple catch blocks.
+- Practiced handling common runtime exceptions.
+- Used nested `try-catch` for granular error handling.
+- Applied `throw` and `throws` for exception creation and propagation.
+- Designed and implemented custom exceptions for business rules.
+- Used try-with-resources for automatic resource management.
+- Solved scenario-based exception handling problems.
+- Committed and pushed all work.
+- 🔗 **Code Link:**  
+👉 [Exception Handling](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/exceptionhandling)
+
+---
