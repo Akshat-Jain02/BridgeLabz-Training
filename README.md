@@ -130,4 +130,30 @@ BridgeLabz-Training/
 👉 [Regex](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/regex) <br>
 👉 [JUnit Testing](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/junit)
 
+### 🗓 Day 27 – Annotations & Reflection  
+**(Date: 22-Jan-2026)**
+- Studied Java annotations and their practical usage.
+- Implemented standard annotations:
+  - `@Override`, `@Deprecated`, `@SuppressWarnings`
+- Created custom annotations with attributes and defaults.
+- Built repeatable annotations using `@Repeatable`.
+- Retrieved annotation metadata at runtime using Reflection API.
+- Implemented field and method validation using annotations.
+- Simulated role-based access control with custom annotations.
+- Built annotation-driven utilities:
+  - JSON mapping
+  - Caching mechanisms
+- Practiced Java Reflection fundamentals:
+  - Inspecting classes, fields, methods, and constructors
+  - Dynamic object creation and method invocation
+- Accessed private and static members using Reflection.
+- Implemented advanced Reflection use cases:
+  - Execution-time logging
+  - JSON generation
+  - Dependency injection simulation
+- Solved scenario-based problems and committed work.
+- 🔗 **Code Link:**  
+👉 [Annotations](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/annotations) <br>
+👉 [Reflection](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/reflection)
+
 ---
