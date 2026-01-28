@@ -9,6 +9,7 @@ public class MergeJsonObjects {
 
     public static void main(String[] args) throws Exception {
 
+    	
         ObjectMapper mapper = new ObjectMapper();
 
         JsonNode json1 = mapper.readTree(new File("src/com/jsondata/json1.json"));
