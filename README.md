@@ -90,6 +90,17 @@ BridgeLabz-Training/
 |   |
 │   ├── 📁 leet-code-codebase/
 │   └── 📁 scenario-based-codebase/
+|   
+├── 📁 java-iostreams-practice/
+│   ├── 📁 gcr-codebase/
+│   │  └── 📁 IOStreamsConcepts/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 csvdata/           # CSV reading/writing, validation, and large-file handling
+│   │               └── 📁 jsondata/          # JSON parsing, schema validation, mapping, conversions
+|   |
+│   ├── 📁 leet-code-codebase/                # LeetCode solutions
+│   └── 📁 scenario-based-codebase/           # Real-world problems
 |
 └── README.md
 
@@ -144,6 +155,12 @@ BridgeLabz-Training/
 | 25  | 20-Jan      | Exception Handling             | Checked, unchecked, custom exceptions, try(resources) & nested      |
 | 26  | 21-Jan      | Regex & JUnit Testing          | Pattern matching, validations, groups, unit testing, assertions     |
 | 27  | 22-Jan      | Annotations & Reflection       | Built-in & custom annotations, runtime inspection, proxies          |
+
+### **Week 5 : Java I/O Streams**
+| Day |     Date    | Topic                          | Coverage                                                            |
+|-----|-------------|--------------------------------|---------------------------------------------------------------------|
+| 28  | 23-Jan      | CSV Data Handling in Java      | Read/write CSV, validation, large-file processing, dataset merging  |
+| 29  | 24-Jan      | JSON Data Handling in Java     | JSON parsing, POJO mapping, schema validation, CSV to JSON, etc.    |
 ---
 
 ##  Key Concepts Covered
