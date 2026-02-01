@@ -180,7 +180,7 @@ BridgeLabz-Training/
 -  **Abstraction**: Interface-based design patterns
 -  **Inheritance**: Parent and Chlid relations
 -  **Polymorphism**: Method overloading and method overriding
--  
+  
 -  ### Data Structures & Algorithms (dsa-practice)
 - **DSA Fundamentals**: Time & space complexity, basic problem analysis
 - **Linked Lists**: Singly, doubly, and circular linked lists
@@ -208,6 +208,9 @@ BridgeLabz-Training/
 - **Reflection**: Runtime class inspection, private member access, dynamic invocation, constructors, proxies, annotation processing 
 - **Annotations**: Built-in annotations, meta-annotations, custom annotations, retention policies, processors, framework usage 
 
+### Java I/O Streams (java-iostreams-practice)
+- **CSV Data Handling**: Reading/writing CSV files, OpenCSV usage, data validation, object mapping, and large-file handling
+- **JSON Data Handling**: JSON creation, parsing, POJO mapping, schema validation, merging datasets, CSV to JSON conversion
 ---
 
 ## 🔗 Quick Links
@@ -252,6 +255,10 @@ BridgeLabz-Training/
 - 📌 [Reflection](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/reflection)
 - 📌 [Annotations](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/annotations)
 - 📌 [Scenario-Based Solutions](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-collections-practice/scenario-based/ScenarioPracticeCollections/src/com)
+
+### `java-iostreams-practice` :
+- 📌 [CSV Data Handling](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-iostreams-practice/gcr-codebase/IOStreamsConcepts/src/com/csvdata)
+- 📌 [JSON Data Handling](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-iostreams-practice/gcr-codebase/IOStreamsConcepts/src/com/jsondata)
 
 ---
 
