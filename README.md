@@ -110,7 +110,7 @@ BridgeLabz-Training/
 │   │               ├── 📁 lambdas/           # Lambda expressions, functional interfaces, syntax
 │   │               └── 📁 methodreferences/  # Static, instance, constructor references
 │   │               └── 📁 interfaces/        # Default methods, static methods, functional interfaces
-│   │               └── 📁 streams/           # Stream API, intermediate & terminal operations
+│   │               └── 📁 streamapi/         # Stream API, intermediate & terminal operations
 │   │               └── 📁 collectors/        # Grouping, partitioning, summarizing collectors
 │   │               └── 📁 workshop/          # Mini projects & real-world stream problems
 |   |
@@ -174,6 +174,13 @@ BridgeLabz-Training/
 |-----|-------------|--------------------------------|---------------------------------------------------------------------|
 | 28  | 23-Jan      | CSV Data Handling in Java      | Read/write CSV, validation, large-file processing, dataset merging  |
 | 29  | 24-Jan      | JSON Data Handling in Java     | JSON parsing, POJO mapping, schema validation, CSV to JSON, etc.    |
+
+### **Week 6 : Java 8 Features**
+| Day |     Date    | Topic                          | Coverage                                                            |
+|-----|-------------|--------------------------------|---------------------------------------------------------------------|
+| 30  | 27-Jan      | Lambdas & Interfaces           | Lambdas, functional interfaces, method references                   |
+| 31  | 28-Jan      | Streams & Collectors           | Stream API, intermediate, terminal, collectors, parallel streams    |
+
 ---
 
 ##  Key Concepts Covered
@@ -286,6 +293,10 @@ BridgeLabz-Training/
 - 📌 [Lambda Expressions](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/lambdas)
 - 📌 [Method References](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/methodreferences)
 - 📌 [Interfaces](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/interfaces)
+- 📌 [Streams](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/streamapi)
+- 📌 [Collectors](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/collectors)
+- 📌 [Workshop](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/workshop)
+
 
 ---
 
