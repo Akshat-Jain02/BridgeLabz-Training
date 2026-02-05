@@ -119,6 +119,17 @@ BridgeLabz-Training/
 │   │               └── 📁 workshop/          # Mini projects & real-world stream problems
 |   |
 │   └── 📁 scenario-based/                    # Real-world problems
+|   |
+├── 📁 java-design-pattern-practice/
+│   ├── 📁 gcr-codebase/
+│   │   └── 📁 DesignConcepts/
+│   │       └── 📁 src/
+│   │           └── 📁 com/
+│   │               ├── 📁 designprinciples/  # SOLID principles and design patterns
+│   │               └── 📁 multithreading/    # Thread lifecycle, synchronization, concurrency examples 
+|   |
+│   └── 📁 scenario-based/                    # Real-world problems
+|
 └── README.md
 
 ```
@@ -185,6 +196,12 @@ BridgeLabz-Training/
 | 30  | 27-Jan      | Lambdas & Interfaces           | Lambdas, functional interfaces, method references                   |
 | 31  | 28-Jan      | Streams & Collectors           | Stream API, intermediate, terminal, collectors, parallel streams    |
 
+### **Week 7 : Java Design Principles & Design Patterns**
+| Day |     Date    | Topic                          | Coverage                                                            |
+|-----|-------------|--------------------------------|---------------------------------------------------------------------|
+| 32  | 31-Jan      | Design Principles & Patterns   | SOLID, DRY, YAGNI, KISS, GoF patterns, clean code principles        |
+| 33  | 02-Feb      | Multithreading in Java         | Thread lifecycle, synchronization, concurrency use cases            |
+
 ---
 
 ##  Key Concepts Covered
@@ -244,6 +261,15 @@ BridgeLabz-Training/
 - **Streams API**: Lazy evaluation, pipelines, parallel streams
 - **Collectors**: Grouping, partitioning, summarization, joining
 - **Workshop**: Real-world data processing using streams
+
+### Java Design Principles & Design Patterns (java-design-pattern-practice)
+- **Design Principles**: SOLID, DRY, KISS, YAGNI, composition over inheritance
+- **Design Patterns**: Singleton, Factory, Observer, Builder
+- **Clean Code Practices**: Object Calisthenics, interface-driven design
+- **Multithreading**: Thread lifecycle, creation using Thread & Runnable, priorities, daemon threads
+- **Synchronization**: Locks, shared resource handling, race-condition prevention
+- **Concurrency Testing**: JUnit validation, timing logs, performance comparison
+
 ---
 
 ## 🔗 Quick Links
@@ -300,6 +326,10 @@ BridgeLabz-Training/
 - 📌 [Streams](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/streamapi)
 - 📌 [Collectors](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/collectors)
 - 📌 [Workshop](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java8-programming-practice/gcr-codebase/Java8Concepts/src/com/workshop)
+
+### `java-design-pattern-practice` :
+- 📌 [Design Principles & Patterns](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-design-pattern-practice/gcr-codebase/DesignConcepts/src/com/smartuniversitylibrarymanagementsystem)
+
 
 
 ---
