@@ -1,0 +1,127 @@
+/*Exercise 1: Simple CRUD Application
+Create a console-based Employee Management System with:
+• Add employee
+• View all employees
+• Update employee salary
+• Delete employee
+• Search employee by name */
+
+--mysql>
+ USE practice_db;
+ 
+ /* o/p
+Database changed
+*/
+
+-- mysql>
+DROP TABLE IF EXISTS employee;
+
+/* o/p
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+*/
+
+CREATE TABLE employee (
+    emp_id INT PRIMARY KEY AUTO_INCREMENT,
+    emp_name VARCHAR(100) NOT NULL,
+    department VARCHAR(50),
+    salary DECIMAL(10,2),
+    email VARCHAR(100)
+);
+
+/* o/p
+Query OK, 0 rows affected (0.11 sec)
+*/
+
+--mysql> DESC employee;
+
+/* o/p
++------------+---------------+------+-----+---------+----------------+
+| Field      | Type          | Null | Key | Default | Extra          |
++------------+---------------+------+-----+---------+----------------+
+| emp_id     | int           | NO   | PRI | NULL    | auto_increment |
+| emp_name   | varchar(100)  | NO   |     | NULL    |                |
+| department | varchar(50)   | YES  |     | NULL    |                |
+| salary     | decimal(10,2) | YES  |     | NULL    |                |
+| email      | varchar(100)  | YES  |     | NULL    |                |
++------------+---------------+------+-----+---------+----------------+
+5 rows in set (0.01 sec)
+*/
+
+--mysql> 
+INSERT INTO employee (emp_name, department, salary, email)
+    VALUES ('Amit Kumar', 'IT', 55000, 'amit@company.com'),
+    ('Akshat Jain' ,'IT', 5000000, 'akshatjain@gmail.com'),
+    ('Divyansh Pandey','Sales',40000,'divyansh5themail@gmail.com'),
+    ('Ashish Mishra', 'Sales', 40000,'mishraashish@gmail.com');
+    
+    
+/* o/p
+Query OK, 4 rows affected (0.01 sec)
+Records: 4  Duplicates: 0  Warnings: 0
+*/    
+
+--mysql> 
+SELECt * FROM employee;
+
+/* o/p
++--------+-----------------+------------+------------+----------------------------+
+| emp_id | emp_name        | department | salary     | email                      |
++--------+-----------------+------------+------------+----------------------------+
+|      1 | Amit Kumar      | IT         |   55000.00 | amit@company.com           |
+|      2 | Akshat Jain     | IT         | 5000000.00 | akshatjain@gmail.com       |
+|      3 | Divyansh Pandey | Sales      |   40000.00 | divyansh5themail@gmail.com |
+|      4 | Ashish Mishra   | Sales      |   40000.00 | mishraashish@gmail.com     |
++--------+-----------------+------------+------------+----------------------------+
+4 rows in set (0.00 sec)
+*/   
+
+--Search Employee by Name
+--mysql>
+
+ SELECT * FROM employee
+ WHERE emp_name = 'Amit Kumar';
+  
+ /* o/p
++--------+------------+------------+----------+------------------+
+| emp_id | emp_name   | department | salary   | email            |
++--------+------------+------------+----------+------------------+
+|      1 | Amit Kumar | IT         | 55000.00 | amit@company.com |
++--------+------------+------------+----------+------------------+
+1 row in set (0.00 sec)
+*/  
+  
+--Update Employee Salary
+
+UPDATE employee
+SET salary = 60000
+WHERE emp_id = 1;
+
+
+/* o/p
+Query OK, 1 row affected (0.01 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+*/  
+
+--Delete Employee
+DELETE FROM employee
+WHERE emp_id = 2;
+
+/* o/p
+Query OK, 1 row affected (0.01 sec)
+*/
+
+--Verify Changes
+
+--mysql> 
+SELECT * FROM employee;
+
+/*
++--------+-----------------+------------+----------+----------------------------+
+| emp_id | emp_name        | department | salary   | email                      |
++--------+-----------------+------------+----------+----------------------------+
+|      1 | Amit Kumar      | IT         | 60000.00 | amit@company.com           |
+|      3 | Divyansh Pandey | Sales      | 40000.00 | divyansh5themail@gmail.com |
+|      4 | Ashish Mishra   | Sales      | 40000.00 | mishraashish@gmail.com     |
++--------+-----------------+------------+----------+----------------------------+
+3 rows in set (0.00 sec)
+*/
