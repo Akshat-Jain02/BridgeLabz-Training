@@ -1,0 +1,151 @@
+/* Exercise 2: Transaction Management
+Implement a banking system with:
+• Transfer money between accounts (use transactions)
+• Check balance
+• Transaction history */
+
+--mysql> 
+USE practice_db;
+
+/* o/p
+Database changed
+*/
+
+--mysql> 
+CREATE TABLE account (
+    account_id INT PRIMARY KEY AUTO_INCREMENT,
+    account_holder VARCHAR(100) NOT NULL,
+    balance DECIMAL(12,2) NOT NULL CHECK (balance >= 0)
+);
+
+/* o/p
+Query OK, 0 rows affected (0.04 sec)
+*/
+
+--mysql>
+CREATE TABLE transaction_history (
+    txn_id INT PRIMARY KEY AUTO_INCREMENT,
+    from_account INT,
+    to_account INT,
+    amount DECIMAL(12,2),
+    txn_type VARCHAR(20),   -- TRANSFER / DEBIT / CREDIT
+    txn_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (from_account) REFERENCES account(account_id),
+    FOREIGN KEY (to_account) REFERENCES account(account_id)
+);
+
+/* o/p
+Query OK, 0 rows affected (0.06 sec)
+*/
+
+--mysql> 
+DESC account;
+
+/* o/p
++----------------+---------------+------+-----+---------+----------------+
+| Field          | Type          | Null | Key | Default | Extra          |
++----------------+---------------+------+-----+---------+----------------+
+| account_id     | int           | NO   | PRI | NULL    | auto_increment |
+| account_holder | varchar(100)  | NO   |     | NULL    |                |
+| balance        | decimal(12,2) | NO   |     | NULL    |                |
++----------------+---------------+------+-----+---------+----------------+
+3 rows in set (0.00 sec)
+*/
+
+--mysql>
+    INSERT INTO account (account_holder, balance)
+    VALUES  VALUES ('Rahul Sharma', 50000),
+    ('Akshat Jain', 80000),
+    ('Aman Bhadoriya',90000),
+    ('Ashish Jain',90000);
+    
+/* o/p
+Query OK, 4 rows affected (0.04 sec)
+Records: 4  Duplicates: 0  Warnings: 0
+*/
+    
+--Check Balance
+--mysql>
+
+SELECT account_id, account_holder, balance
+FROM account
+WHERE account_id = 1;
+ 
+/*
++------------+----------------+----------+
+| account_id | account_holder | balance  |
++------------+----------------+----------+
+|          1 | Rahul Sharma   | 50000.00 |
++------------+----------------+----------+
+1 row in set (0.00 sec)
+*/
+
+--mysql>
+START TRANSACTION;    
+
+--mysql> 
+SELECT balance FROM account
+       WHERE account_id = 1;
+       
+/* o/p
++----------+
+| balance  |
++----------+
+| 50000.00 |
++----------+
+1 row in set (0.00 sec)
+*/       
+
+--mysql> 
+       UPDATE account
+       SET balance = balance - 5000
+       WHERE account_id = 1;
+       
+/*
+Query OK, 1 row affected (0.01 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+*/       
+
+--mysql> 
+       UPDATE account
+       SET balance = balance + 5000
+       WHERE account_id = 2;
+      
+ /* o/p
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+ */      
+ 
+ --mysql>
+        INSERT INTO transaction_history (from_account, to_account, amount, txn_type)
+        VALUES (1, 2, 5000, 'TRANSFER');
+        
+ /* o/p
+Query OK, 1 row affected (0.01 sec)
+ */          
+ 
+ --mysql> 
+ COMMIT;
+ 
+ /*
+Query OK, 0 rows affected (0.01 sec)
+*/
+
+--If Any Error Occurs
+--ROLLBACK
+
+--Check Balances After Transfer
+--mysql> 
+SELECT * FROM account;
+
+/*
++------------+----------------+----------+
+| account_id | account_holder | balance  |
++------------+----------------+----------+
+|          1 | Rahul Sharma   | 45000.00 |
+|          2 | Akshat Jain    | 85000.00 |
+|          3 | Aman Bhadoriya | 90000.00 |
+|          4 | Ashish Jain    | 90000.00 |
++------------+----------------+----------+
+4 rows in set (0.00 sec)
+*/
