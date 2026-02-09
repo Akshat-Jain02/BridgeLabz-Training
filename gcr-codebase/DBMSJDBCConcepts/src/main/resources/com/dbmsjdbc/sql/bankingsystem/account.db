@@ -138,7 +138,7 @@ Query OK, 0 rows affected (0.01 sec)
 --mysql> 
 SELECT * FROM account;
 
-/*
+/* o/p
 +------------+----------------+----------+
 | account_id | account_holder | balance  |
 +------------+----------------+----------+
