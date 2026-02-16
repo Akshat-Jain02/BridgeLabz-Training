@@ -240,6 +240,7 @@ BridgeLabz-Training/
 | Day |     Date    | Topic                          | Coverage                                                            |
 |-----|-------------|--------------------------------|---------------------------------------------------------------------|
 | 34  | 06-Feb      | DBMS & SQL Optimization        | Normalization, joins, transactions, indexes, tuning & EXPLAIN       |
+| 35  | 09-Feb      | JDBC Fundamentals, Connectivity| JDBC architecture, CRUD operations, transactions, DAO/DTO patterns  |
 ---
 
 ##  Key Concepts Covered
@@ -308,6 +309,19 @@ BridgeLabz-Training/
 - **Synchronization**: Locks, shared resource handling, race-condition prevention
 - **Concurrency Testing**: JUnit validation, timing logs, performance comparison
 
+### DBMS, SQL & JDBC Fundamentals (dbms-jdbc-practice)
+- **Database Design**: Normal forms (1NF–4NF, BCNF), schema modeling
+- **Keys**: Primary, foreign, composite, candidate, unique
+- **SQL Commands**: DDL, DML, DQL, DCL, TCL
+- **Joins**: Inner, outer, cross, self joins
+- **Advanced Queries**: Subqueries, CTEs, window functions
+- **Indexing**: Clustered, non-clustered, composite, full-text, unique
+- **Query Optimization**: Execution plans, `EXPLAIN`, tuning strategies
+- **JDBC Architecture**: DriverManager, Connection, Statement APIs
+- **Database Operations**: CRUD using PreparedStatement
+- **Transactions**: Commit, rollback, savepoints, auto-commit handling
+- **Design Patterns**: DAO and DTO for database applications
+
 ---
 
 ## 🔗 Quick Links
@@ -368,6 +382,11 @@ BridgeLabz-Training/
 ### `java-design-pattern-practice` :
 - 📌 [Design Principles & Patterns](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-design-pattern-practice/gcr-codebase/DesignConcepts/src/com/smartuniversitylibrarymanagementsystem)
 - 📌 [Multithreading](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/java-design-pattern-practice/gcr-codebase/DesignConcepts/src/com/multithreading)
+
+### `dbms-jdbc-practice` :
+- 📌 [DBMS, MySQL & SQL](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/dbms-jdbc-practice/gcr-codebase/DBMSJDBCConcepts/src/main/resources/com/dbmsjdbc/sql)
+- 📌 [JDBC Practice](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/dbms-jdbc-practice/gcr-codebase/DBMSJDBCConcepts/src/main/java/com/dbmsjdbc/jdbc)
+- 📌 [Scenario-Based Solutions](https://github.com/Akshat-Jain02/BridgeLabz-Training/tree/dbms-jdbc-practice/scenario-based/ScenarioPracticeDBMSJDBC/src/com/day01)
 
 ---
 
